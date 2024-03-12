@@ -1,0 +1,25 @@
+const Images = {
+    dog: () => require('./dog.png'),
+    dogd: () => require('./dogdetail.png'),
+    cat:() => require('./black-cat.png'),
+    catd:() => require('./catdetail.png'),
+    rabbit:() => require('./rabbit.png'),
+    rabbitd:() => require('./rabbitdetail.png'),
+    turtle:()=> require('./turtle.png'),
+    turtled:() => require('./turtledetail.png'),
+    bird:()=>require('./bird.png'),
+    birdd:() => require('./birddetail.png'),
+    horse:()=>require('./horse.png'),
+    horsed:() => require('./horsedetail.png'),
+    fish:()=> require('./fish.png'),
+    fishd:() => require('./fishdetail.png'),
+    snake:()=>require('./snake.png'),
+    snaked:() => require('./snakedetail.png'),
+    shiba:()=> require('./shiba.png'),
+    fooddog:()=>require('./fooddog.png'),
+    type:()=>require('./type.png'),
+    mammal:()=>require('./mammal.png'),
+    endangered:()=>require('./endangered.png'),
+  };
+  
+  export default Images;
